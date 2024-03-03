@@ -1,0 +1,149 @@
+
+
+#addTask{
+    background-color: rgb(0, 0, 0);
+    color: #93B1A6;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #00ff6a;
+    transition: left 0.3s;
+    z-index: 1;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.w3-sidebar{
+    height:fit-content;
+    width:200px;
+    background-color:rgba(24, 61, 61, 0);
+    position:fixed!important;
+    z-index:1;
+    overflow:none;
+    border-radius: 10px;
+    padding-bottom: 10%;
+}
+.w3-bar-block .w3-bar-item{
+    width:100%;
+    display:block;
+    padding:8px 16px;
+    text-align:left;
+    border:none;
+    white-space:normal;
+    float:none;
+    outline:0;
+    border-radius: 20%;
+}
+.w3-bar-block.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}
+
+#div1{
+    background-color: rgba(24, 61, 61, 0);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #183D3D;
+}
+#div2{
+    background-color: #183d3d00;
+    margin-bottom: 5px;
+}
+#div3{
+    background-color: #293d1800;
+    margin-bottom: 5px;
+}
+
+#div1 a, #div2 a, #div3 a{
+    color:#183D3D
+}
+
+#div1 a:hover, #div2 a:hover, #div3 a:hover{
+    font-weight:500;
+    transition: 2s;
+}
+
+body {
+    background-color: rgba(30, 30, 30, 0.51);
+    font-family: Arial, sans-serif;
+    background-image: url(/Images/wp4871862-black-aesthetic-1920x1080-wallpapers.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+
+   }
+   .container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20%;
+    background-color: #040D12;
+    color:#93B1A6;
+   }
+   input{
+    background: rgb(253, 253, 253);
+    color: rgb(255, 255, 255);
+   }
+   ::placeholder{
+    color: rgb(39, 39, 34);
+    opacity: 0.7;
+   }
+   button{
+    background-color: #183D3D;
+    color: #93B1A6;
+    border-radius: 20%;
+    
+
+   }
+.centrerhaut{
+    text-align: center;
+}
+#taskDone{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+#clearAll{
+    margin-left: 35%;
+}
+
+
+
+.w3-bar-item {
+    letter-spacing: 0;
+}
+
+.w3-bar-item:hover,
+.w3-bar-item:active {
+  letter-spacing: 5px;
+}
+
+.w3-bar-item:after,
+.w3-bar-item:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 2s ease-in-out;
+  width: 0;
+}
+
+.w3-bar-item:after,
+.w3-bar-item:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  width: 70%;
+}
+
+.w3-bar-item:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
